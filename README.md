@@ -39,19 +39,40 @@ https://www.somasimple.com/pdf_files/resfire.pdf
         - On the left results from the code (Red: Excitatory neurons // Blue: Inhibitory neurons)
         - On the right similar result from Barbierie et coll., 2014 (2) 
     
-    ![Screen Shot 2019-11-15 at 23 19 45](https://user-images.githubusercontent.com/55028120/68979684-77ba3100-07fe-11ea-8f27-92d6076e4cd4.png)
+   ![Screen Shot 2019-11-15 at 23 32 12](https://user-images.githubusercontent.com/55028120/68980232-2dd24a80-0800-11ea-99a3-e1082025010d.png)
 
     
 
-# XOR_Problem_3_neurons
+# XOR Problem 3 neurons
 
-The XOR problem cannot be solved by only one neuron. However, the implementation of a feedforward
-neural network of resonate and fire neurons can solve it. This is due to the bounce of membrane potential 
-with this type of neuron. 
+The XOR problem can be explained by the separation of squares and circles as represented. A single neuron cannot solve this non-linear problem. 
+
+![Screen Shot 2019-11-15 at 23 33 57](https://user-images.githubusercontent.com/55028120/68980327-74c04000-0800-11ea-9e77-dbd4fb4b6eca.png)
+
+However, the implementation of a feedforward neural network of resonate and fire neurons can solve it. This is due to the bounce of membrane potential with this type of neuron. 
 
 - 3 neurons, two are considered as inputs and the last one as the neurons which solve the XOR problem.
 - Graphic representation of: 
     - Each case of XOR with membrane potential of the three neurons over time.
+
+### Input 1 0 ==> Output 1
+
+In the first two neurons, only the excitatory fires that leads to the activation of the third neuron. 
+
+![Screen Shot 2019-11-15 at 23 37 41](https://user-images.githubusercontent.com/55028120/68980565-1c3d7280-0801-11ea-82d0-8d4afd4a5542.png)
+
+### Input 0 1 ==> Output 1
+
+In the first two neurons, only the inhibitory fires that leads to negative injection to the third one but the rebounce of membrane potential in the RAF provide the firing of the neuron.
+
+![Screen Shot 2019-11-15 at 23 37 55](https://user-images.githubusercontent.com/55028120/68980790-c3baa500-0801-11ea-9d60-dcf80b49b991.png)
+
+
+### Input 0 1 ==> Output 1
+
+The first two neurons fire but since one is excitatory and one inhibitory their inputs to the last neurons are cancel and the last neuron does not fire. 
+
+
 
 
 
