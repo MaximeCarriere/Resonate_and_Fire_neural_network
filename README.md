@@ -59,7 +59,7 @@ However, the implementation of a feedforward neural network of resonate and fire
 
 In the first two neurons, only the excitatory fires that leads to the activation of the third neuron. 
 
-![Screen Shot 2019-11-15 at 23 37 41](https://user-images.githubusercontent.com/55028120/68980565-1c3d7280-0801-11ea-82d0-8d4afd4a5542.png)
+![Screen Shot 2019-11-15 at 23 37 48](https://user-images.githubusercontent.com/55028120/68980844-f795ca80-0801-11ea-9743-52a3382f04d9.png)
 
 ### Input 0 1 ==> Output 1
 
@@ -71,6 +71,8 @@ In the first two neurons, only the inhibitory fires that leads to negative injec
 ### Input 0 1 ==> Output 1
 
 The first two neurons fire but since one is excitatory and one inhibitory their inputs to the last neurons are cancel and the last neuron does not fire. 
+
+![Screen Shot 2019-11-15 at 23 46 05](https://user-images.githubusercontent.com/55028120/68980913-201dc480-0802-11ea-9c4e-0ef36fded250.png)
 
 
 
