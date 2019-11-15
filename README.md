@@ -11,6 +11,9 @@ https://www.somasimple.com/pdf_files/resfire.pdf
     - Injected current 
     - Memrane potential
     - Spike 
+    
+    ![Screen Shot 2019-11-15 at 22 47 30](https://user-images.githubusercontent.com/55028120/68978081-1db76c80-07fa-11ea-87a3-c21e6146699f.png)
+
 
 # Neural_Network_1000_neurons
 
