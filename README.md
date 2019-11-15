@@ -81,4 +81,6 @@ The first two neurons fire but since one is excitatory and one inhibitory their 
 # References 
 
 (1) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6036256/
+
+
 (2) https://www.jneurosci.org/content/34/44/14589/tab-figures-data
